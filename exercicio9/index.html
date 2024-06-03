@@ -3,12 +3,23 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Exercicio 1 </title>
+    <title>Exercicio 9 </title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     
 </head>
 <body>
-    <button id="btn">Botão</button>
+    <h2>Calculadora de Distância entre Dois Pontos</h2>
+    <div>
+        <label for="x1">Ponto 1 (x1, y1):</label>
+        <input type="number" id="x1" placeholder="x1">
+        <input type="number" id="y1" placeholder="y1">
+    </div>
+    <div>
+        <label for="x2">Ponto 2 (x2, y2):</label>
+        <input type="number" id="x2" placeholder="x2">
+        <input type="number" id="y2" placeholder="y2">
+    </div>
+    <button onclick="calcularDistancia()">Calcular Distância</button>
     <div id="resultado"></div>
 </body>
     <script src='main.js'></script>
